@@ -28,6 +28,7 @@ class MLP(nn.Module):
 model = MLP() ##모델에 대한 객체 생성
 
 print("Printing\n------------------")
+print("something")
 print(list(model.children())) ##model.children()##같은 레벨의 하위 노드 반환
 print("\n\nPrinting Modules\n------------------")
 print(list(model.modules())) ##model.modules() ##모델의 네트워크에 대한 노드 반환
